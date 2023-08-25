@@ -7,8 +7,8 @@ exports.modules = {
 
 // Exports
 module.exports = {
-	"style": {"fontFamily":"'__Inter_20951f', '__Inter_Fallback_20951f'","fontStyle":"normal"},
-	"className": "__className_20951f"
+	"style": {"fontFamily":"'__Inter_b048fb', '__Inter_Fallback_b048fb'","fontStyle":"normal"},
+	"className": "__className_b048fb"
 };
 
 
@@ -30,7 +30,7 @@ Object.defineProperty(exports, "addBasePath", ({
 }));
 const _addpathprefix = __webpack_require__(893);
 const _normalizetrailingslash = __webpack_require__(1094);
-const basePath =  false || "";
+const basePath = "/giangtuyet-web-nextjs" || 0;
 function addBasePath(path, required) {
     return (0, _normalizetrailingslash.normalizePathTrailingSlash)( false ? 0 : (0, _addpathprefix.addPathPrefix)(path, basePath));
 }
@@ -4621,7 +4621,7 @@ Object.defineProperty(exports, "hasBasePath", ({
     }
 }));
 const _pathhasprefix = __webpack_require__(4614);
-const basePath =  false || "";
+const basePath = "/giangtuyet-web-nextjs" || 0;
 function hasBasePath(path) {
     return (0, _pathhasprefix.pathHasPrefix)(path, basePath);
 }
@@ -4662,7 +4662,7 @@ const _warnonce = __webpack_require__(8658);
 const _routercontext = __webpack_require__(7160);
 const _imageloader = /*#__PURE__*/ _interop_require_default._(__webpack_require__(5246));
 // This is replaced by webpack define plugin
-const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false};
+const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/giangtuyet-web-nextjs/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false};
 if (true) {
     globalThis.__NEXT_IMAGE_IMPORTED = true;
 }
@@ -4957,7 +4957,7 @@ Object.defineProperty(exports, "removeBasePath", ({
     }
 }));
 const _hasbasepath = __webpack_require__(4374);
-const basePath =  false || "";
+const basePath = "/giangtuyet-web-nextjs" || 0;
 function removeBasePath(path) {
     if (false) {}
     // Can't trim the basePath if it has zero length!
@@ -9380,7 +9380,7 @@ const unstable_getImgProps = (imgProps)=>{
     const { props } = (0, _getimgprops.getImgProps)(imgProps, {
         defaultLoader: _imageloader.default,
         // This is replaced by webpack define plugin
-        imgConf: {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false}
+        imgConf: {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/giangtuyet-web-nextjs/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false}
     });
     for (const [key, value] of Object.entries(props)){
         if (value === undefined) {
@@ -9642,7 +9642,7 @@ function isDynamicRoute(route) {
 
 /***/ }),
 
-/***/ 5777:
+/***/ 3881:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -9692,7 +9692,7 @@ Object.defineProperty(exports, "parseUrl", ({
     }
 }));
 const _querystring = __webpack_require__(2027);
-const _parserelativeurl = __webpack_require__(5777);
+const _parserelativeurl = __webpack_require__(3881);
 function parseUrl(url) {
     if (url.startsWith("/")) {
         return (0, _parserelativeurl.parseRelativeUrl)(url);

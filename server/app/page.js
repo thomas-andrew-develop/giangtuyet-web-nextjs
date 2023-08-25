@@ -212,7 +212,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 8212:
+/***/ 9958:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -248,7 +248,7 @@ const tree = {
         children: ['__PAGE__', {}, {
           page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 7170)), "/media/giang/Project/project/store/giangtuyet-web-nextjs/src/app/page.js"],
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1720))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -260,7 +260,7 @@ const tree = {
         'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2911)), "/media/giang/Project/project/store/giangtuyet-web-nextjs/src/app/layout.js"],
 'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5493, 23)), "next/dist/client/components/not-found-error"],
         metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 1720))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -301,15 +301,15 @@ const routeModule = new AppPageRouteModule({
 
 /***/ }),
 
-/***/ 8466:
+/***/ 7949:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23))
 
 /***/ }),
 
@@ -535,7 +535,7 @@ function Home() {
 
 /***/ }),
 
-/***/ 3881:
+/***/ 1720:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -549,7 +549,7 @@ __webpack_require__.r(__webpack_exports__);
 
   /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
     const imageData = {"type":"image/x-icon","sizes":"16x16"}
-    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "favicon.ico")
+    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)("/giangtuyet-web-nextjs", props.params, "favicon.ico")
 
     return [{
       ...imageData,
@@ -573,7 +573,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,84], () => (__webpack_exec__(8212)));
+var __webpack_exports__ = __webpack_require__.X(0, [587,84], () => (__webpack_exec__(9958)));
 module.exports = __webpack_exports__;
 
 })();
