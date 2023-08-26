@@ -4,11 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "cp .env.dev .env && next build",
     "start": "next start",
     "lint": "next lint",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d .next"
+    "predeploy": "cp .env.prod .env && next build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "eslint": "8.47.0",

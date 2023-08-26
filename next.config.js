@@ -1,4 +1,13 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
 
-module.exports = nextConfig
+
+
+const nextConfig = {
+  output: 'export',
+  images: {
+    loader: "custom",
+    loaderFile: "./imageLoader.js",
+  }
+};
+
+module.exports = nextConfig;
